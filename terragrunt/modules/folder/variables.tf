@@ -3,11 +3,6 @@ variable "cloud_id" {
   type        = string
 }
 
-variable "folder_id" {
-  description = "Folder that the resource belongs to."
-  type        = string
-}
-
 variable "name" {
   description = "The name of the Folder."
   type        = string
